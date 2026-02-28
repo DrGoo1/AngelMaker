@@ -1,0 +1,24 @@
+# Unreal generated (DO NOT COMMIT)
+DerivedDataCache/
+Intermediate/
+Saved/
+Binaries/
+Build/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+
+# Logs / temp
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
