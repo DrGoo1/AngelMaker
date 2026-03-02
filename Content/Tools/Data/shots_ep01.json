@@ -1,0 +1,36 @@
+﻿{
+  "episode": "EP01",
+  "format": {
+    "fps": 24,
+    "aspect": "2.39",
+    "render": "4096x1716",
+    "color": "ACES_linear_EXR16"
+  },
+  "sequences": [
+    {
+      "name": "CHAIN_REACTION",
+      "stencilActiveId": 1,
+      "shots": [
+        { "id": "CR_001", "type": "establishing_city", "lens": 35, "move": "slow_push", "durationSec": 4.0, "mood": "urban_lonely" },
+        { "id": "CR_002", "type": "angel_close",        "lens": 50, "move": "micro_drift", "durationSec": 3.5, "mood": "uneasy" },
+        { "id": "CR_003", "type": "dealer_approach",     "lens": 85, "move": "slow_push", "durationSec": 4.0, "mood": "seduction_danger" }
+      ]
+    },
+    {
+      "name": "HIDE_AND_SEEK",
+      "stencilActiveId": 3,
+      "shots": [
+        { "id": "HS_001", "type": "street_walk", "lens": 35, "move": "side_track", "durationSec": 5.0, "mood": "decision" },
+        { "id": "HS_002", "type": "bus_station", "lens": 35, "move": "slow_push",  "durationSec": 4.0, "mood": "transition" }
+      ]
+    },
+    {
+      "name": "PROMISE_OF_A_SONG",
+      "stencilActiveId": 4,
+      "shots": [
+        { "id": "PS_001", "type": "home_exterior", "lens": 35, "move": "slow_push", "durationSec": 4.0, "mood": "return" },
+        { "id": "PS_002", "type": "doorway_two",   "lens": 50, "move": "micro_drift", "durationSec": 4.0, "mood": "reunion" }
+      ]
+    }
+  ]
+}
